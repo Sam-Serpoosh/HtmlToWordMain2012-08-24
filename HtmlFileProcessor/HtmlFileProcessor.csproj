@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="HtmlProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetrieveFileContent.cs" />
+    <Compile Include="TextUtil.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
