@@ -6,6 +6,15 @@ namespace HtmlFileProcessor.Test
 	public class TextUtilFixture
 	{
 		[Test]
+		public void IgnoresFromOpenningAngleBracketToClosingOne()
+		{
+			const string controlName = "MMSControl";
+			const string htmlText = "<span class=\"identifier\">" + controlName + "</span>";
+			var value = TextUtil.ValueWithoutHtmlPeripherals(htmlText);
+			Assert.AreEqual(controlName, value);
+		}
+
+		[Test]
 		public void FetchTextBetweenTwoWords()
 		{
 			var text = "hello how you doing </sljflksdjf. ldj> bye";

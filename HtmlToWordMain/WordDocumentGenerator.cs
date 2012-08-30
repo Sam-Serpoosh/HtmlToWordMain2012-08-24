@@ -21,10 +21,10 @@ namespace HtmlToWordMain
 
         public void SaveDocument()
         {
-            CreateTextSection("Constructors", 1, 6, 16);
+            CreateTextSection("Constructors", 1, 6, 16, (WdColor)WordColor.Blue);
             CreateConstructorsTable();
 
-            CreateTextSection("Properties", 1, 6, 16);
+            CreateTextSection("Properties", 1, 6, 16, (WdColor)WordColor.Blue);
             CreatePropertiesTable();
 
             _doc.SaveAs(@"C:\TestFiles\GeneratedWordDoc.doc", true);
@@ -73,6 +73,7 @@ namespace HtmlToWordMain
             var table = _doc.Tables.Add(range, 2, 3, ref _missing, ref _missing);
             table.Range.ParagraphFormat.SpaceAfter = 6;
             table.Range.Font.Bold = 0;
+        	table.Range.Font.Size = 10;
             table.Range.Font.Color = WdColor.wdColorBlack;
             table.Borders.Enable = 1;
 

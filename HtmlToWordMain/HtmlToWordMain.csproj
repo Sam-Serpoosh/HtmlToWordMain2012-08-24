@@ -82,10 +82,6 @@
       <Name>HtmlFileProcessor</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Images\next_to_methods_pic.gif" />
-    <EmbeddedResource Include="Images\next_to_property.gif" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

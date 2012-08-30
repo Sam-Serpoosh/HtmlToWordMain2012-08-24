@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HtmlProcessorFixture.cs" />
+    <Compile Include="HtmlHeaderProcessorFixture.cs" />
+    <Compile Include="HtmlSyntaxProcessorFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextUtilFixture.cs" />
   </ItemGroup>

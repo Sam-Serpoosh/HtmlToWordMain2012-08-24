@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HtmlProcessor.cs" />
+    <Compile Include="HtmlHeaderProcessor.cs" />
+    <Compile Include="HtmlSyntaxProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RetrieveFileContent.cs" />
     <Compile Include="TextUtil.cs" />

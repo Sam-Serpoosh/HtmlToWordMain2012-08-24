@@ -3,25 +3,15 @@
 namespace HtmlFileProcessor.Test
 {
     [TestFixture]
-    public class HtmlProcessorFixture
+    public class HtmlHeaderProcessorFixture
     {
-        [Test]
-        public void IgnoresFromOpenningAngleBracketToClosingOne()
-        {
-            const string controlName = "MMSControl";
-            const string htmlText = "<span class=\"identifier\">" + controlName + "</span>";
-            var htmlProcessor = new HtmlProcessor(htmlText);
-            var value = htmlProcessor.ValueWithoutHtmlPeripherals(htmlText);
-            Assert.AreEqual(controlName, value);
-        }
-
 		[Test]
 		public void GetsTheTitleOfTheControl()
 		{
 			const string htmlText = @"<meta name=""save"" content=""history"" />
     <title>MMSControl Class</title>";
 
-			var htmlProcessor = new HtmlProcessor(htmlText);
+			var htmlProcessor = new HtmlHeaderProcessor(htmlText);
 			var title = htmlProcessor.TitleOfControl();
 
 			Assert.AreEqual("MMSControl Class", title);
@@ -36,7 +26,7 @@ namespace HtmlFileProcessor.Test
     <b>Assembly:</b>
    <span sdata=""assembly""";
 
-			var htmlProcessor = new HtmlProcessor(htmlText);
+			var htmlProcessor = new HtmlHeaderProcessor(htmlText);
 			var namespaceInfo = htmlProcessor.FetchNamespaceInfo();
 
 			Assert.AreEqual("Namespace: ATT.Controls", namespaceInfo);
@@ -52,7 +42,7 @@ namespace HtmlFileProcessor.Test
 @"CollapsibleArea_Container""><div class=""LW_CollapsibleArea_TitleDiv"">" + 
 @"<h2 class=""LW_CollapsibleArea_Title"">Syntax</h2><";
 
-			var htmlProcessor = new HtmlProcessor(htmlText);
+			var htmlProcessor = new HtmlHeaderProcessor(htmlText);
 			var assemblyInfo = htmlProcessor.FetchAssemblyInfo();
 
 			Assert.AreEqual("Assembly: ATT.Controls (in ATT.Controls.dll)", assemblyInfo);
