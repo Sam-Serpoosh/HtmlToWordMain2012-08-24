@@ -1,5 +1,6 @@
 ﻿using Microsoft.Office.Interop.Word;
 using System.Reflection;
+using HtmlFileProcessor;
 
 namespace HtmlToWordMain
 {
@@ -21,12 +22,6 @@ namespace HtmlToWordMain
 
         public void SaveDocument()
         {
-            CreateTextSection("Constructors", 1, 6, 16, (WdColor)WordColor.Blue);
-            CreateConstructorsTable();
-
-            CreateTextSection("Properties", 1, 6, 16, (WdColor)WordColor.Blue);
-            CreatePropertiesTable();
-
             _doc.SaveAs(@"C:\TestFiles\GeneratedWordDoc.doc", true);
 
             _doc.Close();
@@ -46,7 +41,7 @@ namespace HtmlToWordMain
 			titleSection.Range.InsertParagraphAfter();
 		}
 
-    	private void CreateConstructorsTable()
+    	public void CreateConstructorsTable()
         {
             var range = _doc.Bookmarks.get_Item(ref _endOfDoc).Range;
             var table = _doc.Tables.Add(range, 2, 3, ref _missing, ref _missing);
@@ -67,23 +62,35 @@ namespace HtmlToWordMain
             table.Rows[1].Range.HighlightColorIndex = WdColorIndex.wdGray25;
         }
 
-        private void CreatePropertiesTable()
+        public void CreatePropertiesTable(string htmlText)
         {
+        	var propertyProcessor = new HtmlPropertiesProcessor(htmlText);
+        	var properties = propertyProcessor.GetAllProperties();
+        	var rowsCount = properties.Count + 1;
             var range = _doc.Bookmarks.get_Item(ref _endOfDoc).Range;
-            var table = _doc.Tables.Add(range, 2, 3, ref _missing, ref _missing);
+            var table = _doc.Tables.Add(range, rowsCount, 3, ref _missing, ref _missing);
             table.Range.ParagraphFormat.SpaceAfter = 6;
             table.Range.Font.Bold = 0;
         	table.Range.Font.Size = 10;
             table.Range.Font.Color = WdColor.wdColorBlack;
             table.Borders.Enable = 1;
 
-            const string picPathInsideTableCell = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\next_to_property.gif";
-            table.Cell(2, 1).Range.InlineShapes.AddPicture(picPathInsideTableCell);
-
+			const string publicPropertyPicPath = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\next_to_property.gif";
+			const string privatePropertyPicPath = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\private-property.gif";
             table.Cell(1, 2).Range.Text = "Name";
             table.Cell(1, 3).Range.Text = "Description";
-            table.Cell(2, 2).Range.Text = "FileOpenButtonStyle";
-            table.Cell(2, 3).Range.Text = "Style for open file button";
+
+			for (var row = 2; row <= rowsCount; row++)
+			{
+				var property = properties[row - 2];
+				if (property.IsPublic)
+					table.Cell(row, 1).Range.InlineShapes.AddPicture(publicPropertyPicPath);
+				else
+					table.Cell(row, 1).Range.InlineShapes.AddPicture(privatePropertyPicPath);
+
+				table.Cell(row, 2).Range.Text = property.Name;
+				table.Cell(row, 3).Range.Text = property.Description;
+			}
 
             table.Rows[1].Range.Font.Bold = 1;
             table.Rows[1].Range.HighlightColorIndex = WdColorIndex.wdGray25;

@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace HtmlFileProcessor
 {
@@ -11,6 +12,12 @@ namespace HtmlFileProcessor
 			var value = FilterNonEmptyValues(innerText);
 
 			return value;
+		}
+
+		public static string GetPureValue(string text)
+		{
+			var innerText = ValueWithoutHtmlPeripherals(text);
+			return FilterNonEmptyValues(innerText);
 		}
 
 		public static string ValueWithoutHtmlPeripherals(string textInHtmlFormat)

@@ -34,6 +34,12 @@ namespace HtmlToWordMain
 			wordGenerator.CreateTextSection(cppCode, 1, 10, 13);
 			wordGenerator.CreateTextSection(memberSentence, 0, 12);
 
+			wordGenerator.CreateTextSection("Constructors", 1, 6, 16, (WdColor)WordColor.Blue);
+			wordGenerator.CreateConstructorsTable();
+
+			wordGenerator.CreateTextSection("Properties", 1, 6, 16, (WdColor)WordColor.Blue);
+			wordGenerator.CreatePropertiesTable(content);
+
 			wordGenerator.SaveDocument();
         }
     }

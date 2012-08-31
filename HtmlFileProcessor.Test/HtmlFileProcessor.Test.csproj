@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HtmlHeaderProcessorFixture.cs" />
+    <Compile Include="HtmlPropertiesProcessorFixture.cs" />
     <Compile Include="HtmlSyntaxProcessorFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextUtilFixture.cs" />

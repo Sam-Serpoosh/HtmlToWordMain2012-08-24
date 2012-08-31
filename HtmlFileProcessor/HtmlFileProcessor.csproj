@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HtmlHeaderProcessor.cs" />
+    <Compile Include="HtmlPropertiesProcessor.cs" />
     <Compile Include="HtmlSyntaxProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
     <Compile Include="RetrieveFileContent.cs" />
     <Compile Include="TextUtil.cs" />
   </ItemGroup>
