@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-
-namespace HtmlFileProcessor
+﻿namespace HtmlFileProcessor
 {
     public class HtmlHeaderProcessor
     {

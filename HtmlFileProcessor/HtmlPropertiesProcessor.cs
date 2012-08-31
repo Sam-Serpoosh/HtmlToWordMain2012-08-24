@@ -29,9 +29,8 @@ namespace HtmlFileProcessor
 
 		public IList<string> PropertiesHtml()
 		{
-			var propertiesWholeSection = TextUtil.FetchTextBetween(_htmlText, 
-				PropertiesWord, FieldsWord);
-			var parts = propertiesWholeSection.Split(new[] {"</tr>"}, Int32.MaxValue, 
+			var propertiesWholeSection = WholePropertiesSection();
+			var parts = propertiesWholeSection.Split(new[] { "</tr>" }, Int32.MaxValue,
 				StringSplitOptions.None).ToList();
 			parts.RemoveAt(0);
 			parts.RemoveAt(parts.Count - 1);
@@ -52,6 +51,11 @@ namespace HtmlFileProcessor
 			var isPublic = htmlProperty.Contains(PublicPropertyPhrase);
 
 			return new Property(propertyName, description, isPublic);
+		}
+
+		private string WholePropertiesSection()
+		{
+			return TextUtil.FetchTextBetween(_htmlText, PropertiesWord, FieldsWord);
 		}
 	}
 }

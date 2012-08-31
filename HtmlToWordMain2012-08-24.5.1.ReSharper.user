@@ -12,47 +12,53 @@
       <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:RetrieveFileContent.cs" caret="386" fromTop="13" />
       <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:TextUtilFixture.cs" caret="344" fromTop="12" />
       <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlHeaderProcessorFixture.cs" caret="142" fromTop="7" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlHeaderProcessor.cs" caret="840" fromTop="16" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlSyntaxProcessor.cs" caret="168" fromTop="6" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlSyntaxProcessorFixture.cs" caret="3755" fromTop="17" />
       <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:Property.cs" caret="450" fromTop="18" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:TextUtil.cs" caret="546" fromTop="13" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="4277" fromTop="11" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="487" fromTop="16" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="1393" fromTop="18" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:Program.cs" caret="1651" fromTop="12" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/d:Properties/f:AssemblyInfo.cs" caret="1355" fromTop="11" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="278" fromTop="7" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="1288" fromTop="13" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.Designer.cs" caret="0" fromTop="0" />
+      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlConstructorProcessorFixture.cs" caret="6224" fromTop="4" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlConstructorProcessor.cs" caret="548" fromTop="6" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:Constructor.cs" caret="278" fromTop="11" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="1353" fromTop="17" />
+      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="18" fromTop="0" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlSyntaxProcessor.cs" caret="1219" fromTop="12" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:TextUtil.cs" caret="0" fromTop="0" />
+      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlSyntaxProcessorFixture.cs" caret="3639" fromTop="15" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlHeaderProcessor.cs" caret="169" fromTop="6" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="666" fromTop="7" />
     </RecentFiles>
     <RecentEdits>
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:TextUtil.cs" caret="1618" fromTop="12" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="2442" fromTop="21" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="1212" fromTop="1" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="2260" fromTop="9" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="606" fromTop="6" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="314" fromTop="2" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="1028" fromTop="13" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="6276" fromTop="20" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:Property.cs" caret="197" fromTop="6" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:Property.cs" caret="564" fromTop="21" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:Property.cs" caret="450" fromTop="19" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:TextUtil.cs" caret="586" fromTop="13" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="1302" fromTop="13" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="68" fromTop="2" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="344" fromTop="12" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="1572" fromTop="4" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="848" fromTop="2" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="3697" fromTop="15" />
-      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="6259" fromTop="21" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="704" fromTop="16" />
-      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlPropertiesProcessor.cs" caret="679" fromTop="14" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="3175" fromTop="6" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="2758" fromTop="11" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="3506" fromTop="12" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="3797" fromTop="18" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="2388" fromTop="16" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="678" fromTop="10" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:Program.cs" caret="1801" fromTop="16" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:WordDocumentGenerator.cs" caret="1393" fromTop="18" />
-      <File id="9D944649-3D89-4A1B-BE8B-A347B17E735A/f:Program.cs" caret="1663" fromTop="12" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="707" fromTop="15" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="779" fromTop="9" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="546" fromTop="15" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="2752" fromTop="18" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="18" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="18" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="5" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="8" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="17" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="21" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="16" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="20" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4151" fromTop="8" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4146" fromTop="13" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="3913" fromTop="4" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="4027" fromTop="8" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:WordDocumentGenerator.cs" caret="1283" fromTop="12" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="1162" fromTop="12" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="1720" fromTop="12" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="2254" fromTop="12" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="2601" fromTop="12" />
+      <File id="3192766C-9574-43F2-A109-F6A7B80C03A1/f:HtmlToWordGenerator.cs" caret="275" fromTop="6" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="519" fromTop="10" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="246" fromTop="4" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="13" fromTop="0" />
+      <File id="497B95AD-AE52-4426-BC51-E31AD43809D9/f:HtmlPropertiesProcessorFixture.cs" caret="18" fromTop="0" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:TextUtil.cs" caret="0" fromTop="0" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlHeaderProcessor.cs" caret="0" fromTop="0" />
+      <File id="5EC96050-6A52-4E9C-8C2A-C799687AE9EE/f:HtmlHeaderProcessor.cs" caret="949" fromTop="6" />
+      <File id="14EEF6F1-DA8A-46D9-A907-7C50C2D89C1B/f:FrmMain.cs" caret="738" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -69,51 +75,51 @@
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
       <Item value="static" priority="4" />
-      <Item value="void" priority="24" />
-      <Item value="using" priority="6" />
-      <Item value="HtmlToWordMain" priority="0" />
-      <Item value="Microsoft" priority="1" />
-      <Item value="Office" priority="1" />
+      <Item value="void" priority="34" />
+      <Item value="using" priority="7" />
+      <Item value="HtmlToWordMain" priority="1" />
+      <Item value="Microsoft" priority="2" />
+      <Item value="Office" priority="2" />
       <Item value="Interop" priority="1" />
       <Item value="Word" priority="3" />
       <Item value="System" priority="4" />
       <Item value="Reflection" priority="1" />
       <Item value="CreateDocument`0" priority="0" />
-      <Item value="const" priority="17" />
+      <Item value="const" priority="20" />
       <Item value="Console`0" priority="2" />
       <Item value="oDoc" priority="2" />
-      <Item value="var" priority="117" />
+      <Item value="var" priority="146" />
       <Item value="oEndOfDoc" priority="1" />
       <Item value="ref" priority="0" />
       <Item value="picturePath" priority="0" />
       <Item value="true" priority="3" />
       <Item value="oWord" priority="0" />
       <Item value="oTable" priority="8" />
-      <Item value="for" priority="11" />
-      <Item value="row" priority="12" />
+      <Item value="for" priority="15" />
+      <Item value="row" priority="18" />
       <Item value="col" priority="4" />
       <Item value="picPathInsideTableCell" priority="1" />
       <Item value="oMissing" priority="1" />
       <Item value="oPara2" priority="2" />
-      <Item value="string" priority="72" />
-      <Item value="public" priority="23" />
-      <Item value="new" priority="27" />
-      <Item value="WordDocumentGenerator`0" priority="0" />
+      <Item value="string" priority="97" />
+      <Item value="public" priority="30" />
+      <Item value="new" priority="35" />
+      <Item value="WordDocumentGenerator`0" priority="1" />
       <Item value="wordGenerator" priority="8" />
-      <Item value="private" priority="31" />
+      <Item value="private" priority="46" />
       <Item value="Document`0" priority="0" />
-      <Item value="object" priority="2" />
-      <Item value="ctor" priority="5" />
+      <Item value="object" priority="3" />
+      <Item value="ctor" priority="10" />
       <Item value="_endOfDoc" priority="0" />
       <Item value="_missing" priority="2" />
       <Item value="Missing`0" priority="0" />
       <Item value="CreateTable`0" priority="1" />
       <Item value="CreateTitle`0" priority="2" />
-      <Item value="Application`0" priority="2" />
+      <Item value="Application`0" priority="3" />
       <Item value="title" priority="1" />
       <Item value="wdColorDarkBlue" priority="0" />
       <Item value="wdColorBlack" priority="1" />
-      <Item value="int" priority="9" />
+      <Item value="int" priority="12" />
       <Item value="size" priority="0" />
       <Item value="wdGray25" priority="0" />
       <Item value="wdAuto" priority="0" />
@@ -124,22 +130,22 @@
       <Item value="HtmlFileProcessor" priority="6" />
       <Item value="HtmlProcessorFixture`0" priority="1" />
       <Item value="htmlProcessor" priority="7" />
-      <Item value="Assert`0" priority="18" />
+      <Item value="Assert`0" priority="24" />
       <Item value="controlName" priority="1" />
-      <Item value="return" priority="25" />
-      <Item value="null" priority="14" />
-      <Item value="foreach" priority="3" />
-      <Item value="if" priority="8" />
-      <Item value="ch" priority="9" />
+      <Item value="return" priority="36" />
+      <Item value="null" priority="17" />
+      <Item value="foreach" priority="5" />
+      <Item value="if" priority="11" />
+      <Item value="ch" priority="11" />
       <Item value="extractedText" priority="3" />
       <Item value="bool" priority="2" />
       <Item value="shouldBeAdded" priority="2" />
-      <Item value="false" priority="0" />
+      <Item value="false" priority="1" />
       <Item value="else" priority="0" />
       <Item value="charIdx" priority="1" />
-      <Item value="htmlText" priority="16" />
+      <Item value="htmlText" priority="22" />
       <Item value="char" priority="0" />
-      <Item value="TextUtil`0" priority="17" />
+      <Item value="TextUtil`0" priority="18" />
       <Item value="text" priority="9" />
       <Item value="startWord" priority="2" />
       <Item value="endWord" priority="1" />
@@ -149,10 +155,10 @@
       <Item value="_filePath" priority="1" />
       <Item value="filePath" priority="0" />
       <Item value="cw" priority="0" />
-      <Item value="ContextBoundObject`0" priority="1" />
+      <Item value="ContextBoundObject`0" priority="2" />
       <Item value="contentRetriever" priority="1" />
-      <Item value="Test" priority="12" />
-      <Item value="_htmlText" priority="11" />
+      <Item value="Test" priority="17" />
+      <Item value="_htmlText" priority="12" />
       <Item value="namespaceInfo" priority="1" />
       <Item value="_namespace" priority="3" />
       <Item value="_assembly" priority="1" />
@@ -180,16 +186,16 @@
       <Item value="CreateNamespaceSection`0" priority="0" />
       <Item value="CreateAssemblySection`0" priority="0" />
       <Item value="namespaceSection" priority="0" />
-      <Item value="content" priority="2" />
+      <Item value="content" priority="3" />
       <Item value="try" priority="0" />
       <Item value="finally" priority="0" />
       <Item value="StreamReader`0" priority="0" />
       <Item value="reader" priority="1" />
-      <Item value="ulong" priority="0" />
+      <Item value="ulong" priority="1" />
       <Item value="spaceAfter" priority="0" />
       <Item value="bold" priority="0" />
       <Item value="enum" priority="0" />
-      <Item value="WdColor`0" priority="6" />
+      <Item value="WdColor`0" priority="10" />
       <Item value="textColor" priority="0" />
       <Item value="WordColor`0" priority="4" />
       <Item value="CreateTextSection`0" priority="1" />
@@ -224,11 +230,11 @@
       <Item value="pattern" priority="0" />
       <Item value="match" priority="5" />
       <Item value="Regex`0" priority="1" />
-      <Item value="HtmlPropertiesProcessor`0" priority="4" />
+      <Item value="HtmlPropertiesProcessor`0" priority="5" />
       <Item value="propertyProcessor" priority="4" />
       <Item value="propertiesHtml" priority="0" />
       <Item value="m" priority="0" />
-      <Item value="List" priority="2" />
+      <Item value="List" priority="3" />
       <Item value="matchesString" priority="1" />
       <Item value="i" priority="3" />
       <Item value="beginningTr" priority="0" />
@@ -236,43 +242,88 @@
       <Item value="MaxValue" priority="0" />
       <Item value="None" priority="0" />
       <Item value="propertiesWholeSection" priority="1" />
-      <Item value="parts" priority="3" />
+      <Item value="parts" priority="5" />
       <Item value="afterDescriptionHeader" priority="0" />
       <Item value="htmlProperty" priority="9" />
       <Item value="property" priority="2" />
-      <Item value="Name" priority="1" />
-      <Item value="name" priority="0" />
-      <Item value="Description" priority="1" />
-      <Item value="description" priority="0" />
+      <Item value="Name" priority="5" />
+      <Item value="name" priority="1" />
+      <Item value="Description" priority="4" />
+      <Item value="description" priority="1" />
       <Item value="isPublic" priority="2" />
-      <Item value="override" priority="0" />
-      <Item value="obj" priority="2" />
-      <Item value="is" priority="0" />
-      <Item value="Property`0" priority="4" />
+      <Item value="override" priority="2" />
+      <Item value="obj" priority="3" />
+      <Item value="is" priority="1" />
+      <Item value="Property`0" priority="5" />
       <Item value="prop" priority="2" />
       <Item value="IsPublic" priority="0" />
       <Item value="allPropertyValues" priority="0" />
       <Item value="splittedValues" priority="2" />
       <Item value="First`1" priority="0" />
-      <Item value="IList" priority="1" />
-      <Item value="Length" priority="0" />
+      <Item value="IList" priority="3" />
+      <Item value="Length" priority="1" />
       <Item value="descriptionParts" priority="1" />
       <Item value="Property" priority="0" />
       <Item value="propertyName" priority="0" />
       <Item value="PublicPropertyPhrase" priority="0" />
       <Item value="FilesWord" priority="0" />
-      <Item value="PropertiesWord" priority="0" />
+      <Item value="PropertiesWord" priority="1" />
       <Item value="CategoryAttribute`0" priority="0" />
-      <Item value="properties" priority="6" />
+      <Item value="properties" priority="7" />
       <Item value="PropertiesHtml`0" priority="0" />
       <Item value="CreateProperty`0" priority="0" />
       <Item value="propertyHtml" priority="0" />
       <Item value="_wordApp" priority="0" />
-      <Item value="rowsCount" priority="1" />
+      <Item value="rowsCount" priority="2" />
       <Item value="WdTwoLinesInOneType`0" priority="0" />
       <Item value="propertyIdx" priority="0" />
       <Item value="publicPropertyPicPath" priority="0" />
       <Item value="privatePropertyPicPath" priority="0" />
+      <Item value="constructorProcessor" priority="3" />
+      <Item value="Lazy" priority="1" />
+      <Item value="internal" priority="3" />
+      <Item value="assembly" priority="0" />
+      <Item value="InternalsVisibleTo" priority="0" />
+      <Item value="HtmlConstructorProcessor`0" priority="3" />
+      <Item value="constructorsHtmlSections" priority="1" />
+      <Item value="WholeConstructorSection`0" priority="1" />
+      <Item value="WholePropertiesSection`0" priority="0" />
+      <Item value="Constructor`0" priority="8" />
+      <Item value="htmlConstructor" priority="1" />
+      <Item value="Char`0" priority="0" />
+      <Item value="processedName" priority="2" />
+      <Item value="break" priority="0" />
+      <Item value="constructorName" priority="0" />
+      <Item value="ProcessConstructorName`0" priority="0" />
+      <Item value="AllConstructorsHtmlSection`0" priority="0" />
+      <Item value="constructorsHtmls" priority="0" />
+      <Item value="constructors" priority="30" />
+      <Item value="CreateConstructor`0" priority="0" />
+      <Item value="Row`0" priority="0" />
+      <Item value="rowCount" priority="0" />
+      <Item value="constructor" priority="1" />
+      <Item value="htmlConstructorProcessor" priority="1" />
+      <Item value="htmlPropertiesProcessor" priority="0" />
+      <Item value="htmlDocPath" priority="1" />
+      <Item value="CreateHeaderSection`0" priority="0" />
+      <Item value="CreateSyntaxSection`0" priority="0" />
+      <Item value="CreateConstructorSection`0" priority="0" />
+      <Item value="CreatePropertiesSection`0" priority="0" />
+      <Item value="OpenFileDialog`0" priority="0" />
+      <Item value="htmlDocFileDialog" priority="1" />
+      <Item value="dialogResult" priority="1" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="_htmlDocFilePath" priority="4" />
+      <Item value="TxtFilePath" priority="0" />
+      <Item value="MessageBox`0" priority="0" />
+      <Item value="pathToSave" priority="1" />
+      <Item value="savePath" priority="0" />
+      <Item value="idx" priority="2" />
+      <Item value="processedPath" priority="1" />
+      <Item value="ProcessSavePath`0" priority="0" />
+      <Item value="publicPropertyPic" priority="0" />
+      <Item value="privatePropertyPic" priority="0" />
+      <Item value="methodPic" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.Console">
       <Item value="ReadLine`0" priority="1" />
@@ -344,26 +395,26 @@
       <Item value="SpaceAfter" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="AreEqual`0" priority="17" />
+      <Item value="AreEqual`0" priority="23" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Empty" priority="5" />
-      <Item value="Format`0" priority="0" />
+      <Item value="Empty" priority="8" />
+      <Item value="Format`0" priority="1" />
       <Item value="Join`0" priority="1" />
       <Item value="IsNullOrEmpty`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Char">
-      <Item value="Equals`0" priority="4" />
-      <Item value="ToString`0" priority="4" />
+      <Item value="Equals`0" priority="5" />
+      <Item value="ToString`0" priority="5" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Length" priority="3" />
       <Item value="IndexOf`0" priority="2" />
       <Item value="Substring`0" priority="0" />
       <Item value="Replace`0" priority="3" />
-      <Item value="Split`0" priority="2" />
+      <Item value="Split`0" priority="3" />
       <Item value="ToCharArray`0" priority="0" />
-      <Item value="Equals`0" priority="1" />
+      <Item value="Equals`0" priority="4" />
       <Item value="Contains`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.IO.StreamReader">
@@ -374,7 +425,7 @@
       <Item value="FileContent`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@HtmlFileProcessor.TextUtil">
-      <Item value="FetchTextBetween`0" priority="7" />
+      <Item value="FetchTextBetween`0" priority="8" />
       <Item value="FilterNonEmptyValues`0" priority="1" />
       <Item value="GetPureValueBetweenWords`0" priority="4" />
       <Item value="GetPureValue`0" priority="0" />
@@ -389,8 +440,8 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.Office.Interop.Word.WdColor">
       <Item value="wdColorYellow" priority="0" />
-      <Item value="wdColorDarkBlue" priority="0" />
-      <Item value="wdColorBlack" priority="0" />
+      <Item value="wdColorDarkBlue" priority="4" />
+      <Item value="wdColorBlack" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@HtmlToWordMain.WordColor">
       <Item value="Black" priority="0" />
@@ -413,7 +464,7 @@
       <Item value="GetAllProperties`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Add`0" priority="2" />
+      <Item value="Add`0" priority="3" />
       <Item value="RemoveAt`0" priority="0" />
       <Item value="Remove`0" priority="0" />
       <Item value="Count" priority="0" />
@@ -423,8 +474,8 @@
       <Item value="Count" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
-      <Item value="First`1" priority="0" />
-      <Item value="Count" priority="2" />
+      <Item value="First`1" priority="1" />
+      <Item value="Count" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:HtmlFileProcessor.Property">
       <Item value="Name" priority="1" />
@@ -433,6 +484,34 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Boolean">
       <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlFileProcessor.HtmlConstructorProcessor">
+      <Item value="ConstructorHtmlSection`0" priority="0" />
+      <Item value="ProcessConstructorName`0" priority="0" />
+      <Item value="GetAllConstructors`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlFileProcessor.Constructor">
+      <Item value="Name" priority="2" />
+      <Item value="Description" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HtmlToWord.HtmlToWordGenerator">
+      <Item value="GenerateTheWordDocumentForHtmlDoc`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

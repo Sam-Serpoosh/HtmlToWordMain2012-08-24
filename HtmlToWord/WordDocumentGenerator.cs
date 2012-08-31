@@ -1,15 +1,20 @@
-﻿using Microsoft.Office.Interop.Word;
+﻿using System.Collections.Generic;
+using Microsoft.Office.Interop.Word;
 using System.Reflection;
 using HtmlFileProcessor;
 
-namespace HtmlToWordMain
+namespace HtmlToWord
 {
-    class WordDocumentGenerator
+    public class WordDocumentGenerator
     {
-        private Application _wordApp;
-        private Document _doc;
+        private readonly Application _wordApp;
+        private readonly Document _doc;
         private object _endOfDoc;
         private object _missing;
+
+		private const string MethodPic = @"C:\WordDocImages\method_pic.gif";
+		private const string PrivatePropertyPic = @"C:\WordDocImages\private_prop.gif";
+		private const string PublicPropertyPic = @"C:\WordDocImages\public_prop.gif";
 
         public WordDocumentGenerator()
         {
@@ -20,16 +25,16 @@ namespace HtmlToWordMain
                 ref _missing, ref _missing);
         }
 
-        public void SaveDocument()
+        public void SaveDocument(string pathToSave)
         {
-            _doc.SaveAs(@"C:\TestFiles\GeneratedWordDoc.doc", true);
+            _doc.SaveAs(ProcessSavePath(pathToSave) + "doc", true);
 
             _doc.Close();
             _wordApp.Application.Quit();
         }
 
 		public void CreateTextSection(string text, int bold = 0, int spaceAfter = 6, 
-			int size = 12, WdColor textColor = (WdColor)WordColor.Black)
+			int size = 12, WdColor textColor = WdColor.wdColorBlack)
 		{
 			object range = _doc.Bookmarks.get_Item(ref _endOfDoc).Range;
 			var titleSection = _doc.Content.Paragraphs.Add(ref range);
@@ -41,31 +46,33 @@ namespace HtmlToWordMain
 			titleSection.Range.InsertParagraphAfter();
 		}
 
-    	public void CreateConstructorsTable()
-        {
+    	public void CreateConstructorsTable(IList<Constructor> constructors)
+    	{
+    		var rowsCount = constructors.Count + 1;
             var range = _doc.Bookmarks.get_Item(ref _endOfDoc).Range;
-            var table = _doc.Tables.Add(range, 2, 3, ref _missing, ref _missing);
+            var table = _doc.Tables.Add(range, rowsCount, 3, ref _missing, ref _missing);
             table.Range.Font.Bold = 0;
             table.Range.Font.Color = WdColor.wdColorBlack;
             table.Range.Font.Size = 10;
             table.Borders.Enable = 1;
 
-			const string picPathInsideTableCell = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\next_to_methods_pic.gif";
-            table.Cell(2, 1).Range.InlineShapes.AddPicture(picPathInsideTableCell);
-
             table.Cell(1, 2).Range.Text = "Name";
             table.Cell(1, 3).Range.Text = "Description";
-            table.Cell(2, 2).Range.Text = "MMSControl()";
-            table.Cell(2, 3).Range.Text = "Creates instance for MMS Control";
 
-            table.Rows[1].Range.Font.Bold = 1;
+			for (var row = 2; row <= rowsCount; row++)
+			{
+				var constructor = constructors[row - 2];
+				table.Cell(row, 1).Range.InlineShapes.AddPicture(MethodPic);
+				table.Cell(row, 2).Range.Text = constructor.Name;
+				table.Cell(row, 3).Range.Text = constructor.Description;
+			}
+
+    		table.Rows[1].Range.Font.Bold = 1;
             table.Rows[1].Range.HighlightColorIndex = WdColorIndex.wdGray25;
         }
 
-        public void CreatePropertiesTable(string htmlText)
+        public void CreatePropertiesTable(IList<Property> properties)
         {
-        	var propertyProcessor = new HtmlPropertiesProcessor(htmlText);
-        	var properties = propertyProcessor.GetAllProperties();
         	var rowsCount = properties.Count + 1;
             var range = _doc.Bookmarks.get_Item(ref _endOfDoc).Range;
             var table = _doc.Tables.Add(range, rowsCount, 3, ref _missing, ref _missing);
@@ -75,8 +82,6 @@ namespace HtmlToWordMain
             table.Range.Font.Color = WdColor.wdColorBlack;
             table.Borders.Enable = 1;
 
-			const string publicPropertyPicPath = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\next_to_property.gif";
-			const string privatePropertyPicPath = @"C:\Works with Matthew\Html to Word Doc-2012-08-24\images\private-property.gif";
             table.Cell(1, 2).Range.Text = "Name";
             table.Cell(1, 3).Range.Text = "Description";
 
@@ -84,9 +89,9 @@ namespace HtmlToWordMain
 			{
 				var property = properties[row - 2];
 				if (property.IsPublic)
-					table.Cell(row, 1).Range.InlineShapes.AddPicture(publicPropertyPicPath);
+					table.Cell(row, 1).Range.InlineShapes.AddPicture(PublicPropertyPic);
 				else
-					table.Cell(row, 1).Range.InlineShapes.AddPicture(privatePropertyPicPath);
+					table.Cell(row, 1).Range.InlineShapes.AddPicture(PrivatePropertyPic);
 
 				table.Cell(row, 2).Range.Text = property.Name;
 				table.Cell(row, 3).Range.Text = property.Description;
@@ -95,11 +100,15 @@ namespace HtmlToWordMain
             table.Rows[1].Range.Font.Bold = 1;
             table.Rows[1].Range.HighlightColorIndex = WdColorIndex.wdGray25;
         }
-    }
 
-	public enum WordColor
-	{
-		Black = WdColor.wdColorBlack,
-		Blue = WdColor.wdColorDarkBlue
-	}
+		private static string ProcessSavePath(string savePath)
+		{
+			var parts = savePath.Split('.');
+			var processedPath = string.Empty;
+			for (var idx = 0; idx < parts.Length - 1; idx++)
+				processedPath += parts[idx] + ".";
+
+			return processedPath;
+		}
+    }
 }

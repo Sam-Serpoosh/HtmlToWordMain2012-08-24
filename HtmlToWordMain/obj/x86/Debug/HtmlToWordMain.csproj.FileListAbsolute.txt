@@ -6,3 +6,5 @@ C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain201
 C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain2012-08-24\HtmlToWordMain\obj\x86\Debug\HtmlToWordMain.csproj.ResolveComReference.cache
 C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain2012-08-24\HtmlToWordMain\bin\Debug\HtmlFileProcessor.dll
 C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain2012-08-24\HtmlToWordMain\bin\Debug\HtmlFileProcessor.pdb
+C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain2012-08-24\HtmlToWordMain\bin\Debug\HtmlToWord.dll
+C:\Projects&RelatedStuff\C#.NET 2008\C#.NET\Works with Matthew\HtmlToWordMain2012-08-24\HtmlToWordMain\bin\Debug\HtmlToWord.pdb
